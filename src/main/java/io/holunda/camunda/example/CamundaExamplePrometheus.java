@@ -1,4 +1,4 @@
-package de.holisticon.camunda.demo;
+package io.holunda.camunda.example;
 
 import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 import org.springframework.boot.SpringApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableProcessApplication
-public class CamundaDemo {
+public class CamundaExamplePrometheus {
     public static void main(String[] args) {
-        SpringApplication.run(CamundaDemo.class, args);
+        SpringApplication.run(CamundaExamplePrometheus.class, args);
     }
 }

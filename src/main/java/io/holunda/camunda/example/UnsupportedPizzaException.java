@@ -1,4 +1,4 @@
-package de.holisticon.camunda.demo;
+package io.holunda.camunda.example;
 
 import static java.lang.String.format;
 

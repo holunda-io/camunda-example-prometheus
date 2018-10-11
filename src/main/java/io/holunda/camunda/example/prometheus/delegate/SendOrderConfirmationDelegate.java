@@ -1,4 +1,4 @@
-package de.holisticon.camunda.demo.delegate;
+package io.holunda.camunda.example.prometheus.delegate;
 
 import lombok.extern.slf4j.Slf4j;
 import org.camunda.bpm.engine.delegate.DelegateExecution;

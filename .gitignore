@@ -3,3 +3,4 @@
 /target/
 /.idea/
 /camunda-demo.iml
+/camunda-example-prometheus.iml

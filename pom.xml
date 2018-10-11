@@ -13,7 +13,7 @@
     <properties>
         <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
         <camunda-spring-boot.version>3.0.0</camunda-spring-boot.version>
-        <camunda.version>7.9.3-ee</camunda.version>
+        <camunda.version>7.9.0</camunda.version>
         <java.version>1.8</java.version>
         <plugin.compiler.version>3.7.0</plugin.compiler.version>
     </properties>
@@ -46,7 +46,7 @@
         </dependency>
         <dependency>
             <groupId>org.camunda.bpm.springboot</groupId>
-            <artifactId>camunda-bpm-spring-boot-starter-webapp-ee</artifactId>
+            <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
             <version>${camunda-spring-boot.version}</version>
         </dependency>
         <dependency>
@@ -94,11 +94,4 @@
             </plugins>
         </pluginManagement>
     </build>
-    <repositories>
-        <repository>
-            <id>camunda-bpm-ee</id>
-            <name>camunda-bpm-ee</name>
-            <url>https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee</url>
-        </repository>
-    </repositories>
 </project>
