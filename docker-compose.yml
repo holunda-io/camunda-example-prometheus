@@ -6,9 +6,11 @@ services:
     build: .
     ports:
       - "8080:8080"
+      - "9999:9999"
     networks:
       - prometheus-grafana_monitor-net
 
 networks:
     prometheus-grafana_monitor-net:
         external: true
+
